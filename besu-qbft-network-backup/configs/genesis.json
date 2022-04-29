@@ -1,0 +1,35 @@
+{
+  "config":{
+    "chainId":1341,
+    "londonBlock": 0,
+    "clique":{
+      "blockperiodseconds":15,
+      "epochlength":30000
+    }
+  },
+  "coinbase":"0x627306090abaB3A6e1400e9345bC60c78a8BEf57",
+  "difficulty":"0x1",
+
+"extraData":"0x0000000000000000000000000000000000000000000000000000000000000000265525aa35ac97a25969adaff2371c0c89754d4fb3a89c49c9cb6bc7c0c1e8ac1a057f211af1c4947d520b9fddb86efade8cf5db98ca51b2b37d0f58286b708d0bef53f0508c4cc30d630e819402d4fae8fb7225cbb16320026c379c46d3a9024066809b6519081127a54acda6ea43fba08f21aeb7996a6e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "gasLimit":"0xa00000",
+  "mixHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
+  "nonce":"0x0",
+  "timestamp":"0x5c51a607",
+  "alloc": {
+      "fe3b557e8fb62b89f4916b721be55ceb828dbd73": {
+        "privateKey": "8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63",
+        "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+        "balance": "0xad78ebc5ac6200000"
+      },
+      "627306090abaB3A6e1400e9345bC60c78a8BEf57": {
+        "privateKey": "c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3",
+        "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+        "balance": "90000000000000000000000"
+      },
+      "f17f52151EbEF6C7334FAD080c5704D77216b732": {
+        "privateKey": "ae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f",
+        "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+        "balance": "90000000000000000000000"
+      }
+   }
+}

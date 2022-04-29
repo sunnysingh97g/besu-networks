@@ -1,0 +1,13 @@
+network-id="1342"
+rpc-http-cors-origins=["all"]
+host-allowlist=["*"]
+rpc-ws-enabled=true
+rpc-http-enabled=true
+data-path="/var/lib/besu/nodes/qbft-1/data"
+node-private-key-file="/var/lib/besu/nodes/qbft-1/configs/key"
+rpc-http-api=["ETH","NET","WEB3"]
+rpc-http-port="8601"
+rpc-ws-port="8602"
+p2p-port="30401"
+genesis-file="/var/lib/besu/configs/genesis.json"
+#bootnodes=["enode://43f85c78e37f63d24df21edc81cc383d75cf1a9fa822500b76beb5f2cb5d25f39079e12af4010208569b103ac1c8a7b046f7572abd00033b635ee6e30a49143d@172.18.0.2:30401"]

@@ -1,0 +1,11 @@
+docker run \
+  --volume /home/ubuntu/environment/besu-qbft-network/:/var/lib/besu/ \
+  hyperledger/besu:latest public-key export \
+  --node-private-key-file=/var/lib/besu/nodes/qbft-3/configs/key \
+  --to=/var/lib/besu/nodes/qbft-3/configs/publicKey
+
+docker run \
+  --volume /home/ubuntu/environment/besu-qbft-network/:/var/lib/besu/ \
+  hyperledger/besu:latest public-key export-address \
+  --node-private-key-file=/var/lib/besu/nodes/qbft-3/configs/key \
+  --to=/var/lib/besu/nodes/qbft-3/configs/address
